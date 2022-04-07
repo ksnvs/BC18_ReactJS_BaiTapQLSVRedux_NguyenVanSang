@@ -20,23 +20,6 @@ class AxiosQuanLySinhVien extends Component {
         isSuccees = false;
         console.log(err);
       });
-
-    // sinhVienServ
-    //   .layDanhSinhVien()
-    //   .then((res) => {
-    //     // xuatThongBAo
-
-    //     console.log(res);
-    //     this.setState({ dssv: res.data });
-    //   })
-    //   .catch((err) => {
-    //     isSuccees = false;
-
-    //     console.log(err);
-    //   });
-
-    // isSuccees && xuatThongbaoThanhCong;
-    // Promise.all()
   }
   render() {
     return (

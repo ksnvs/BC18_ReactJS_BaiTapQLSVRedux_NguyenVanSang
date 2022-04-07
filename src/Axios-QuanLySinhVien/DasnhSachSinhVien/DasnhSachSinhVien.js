@@ -15,7 +15,7 @@ class DasnhSachSinhVien extends Component {
 
               <th>Email</th>
               <th>Số điện thoại</th>
-              <td>Thao tác</td>
+              <th>Thao tác</th>
             </tr>
           </thead>
           <tbody>
