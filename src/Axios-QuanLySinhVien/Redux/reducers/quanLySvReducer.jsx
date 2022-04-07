@@ -18,10 +18,12 @@ const callAPI = (type, _id, _data) => {
       sinhVienServ
         .themSinhVien(_data)
         .then(() => {
-          console.log("Thêm sv thành công");
+          alert("Thêm Sinh Viên thành công");
+          // console.log("Thêm sv thành công");
         })
         .catch((err) => {
-          console.log(err);
+          // console.log(err);
+          alert("Thêm Sinh Viên thất bại ", err);
         });
       return;
     }
@@ -29,10 +31,12 @@ const callAPI = (type, _id, _data) => {
       sinhVienServ
         .xoaSinhVien(_id)
         .then(() => {
-          console.log("Xóa sv thành công");
+          // console.log("Xóa sv thành công");
+          alert("Xóa Sinh Viên thành công");
         })
         .catch((err) => {
-          console.log(err);
+          // console.log(err);
+          alert("Xóa Sinh Viên thất bại ", err);
         });
       return;
     }
@@ -40,10 +44,12 @@ const callAPI = (type, _id, _data) => {
       sinhVienServ
         .capNhatSinhVien(_id, _data)
         .then(() => {
-          console.log("Cập nhật sv thành công");
+          // console.log("Cập nhật Sinh Viên thành công");
+          alert("Cập nhật Sinh Viên thành công");
         })
         .catch((err) => {
-          console.log(err);
+          // console.log(err);
+          alert("Cập nhật Sinh Viên thất bại ", err);
         });
       return;
     }
